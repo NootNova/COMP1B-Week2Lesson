@@ -17,7 +17,7 @@ p {
 
 .article-card {
 
-  box-sizing: content-box;
+  box-sizing: border-box;
 
   width: 240px;
 

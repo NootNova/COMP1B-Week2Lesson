@@ -8,7 +8,7 @@ Added color and it worked as desired.
 
 Added class for article card.
 
-Expected: 
+Expected: content-box
 
     Content width is set at 240px | content width is 240px
 
@@ -17,6 +17,16 @@ Expected:
 
     Total horizontal footprint:
      add the 12px margin twice to the Border-box width to find the total horizontal footprint, 276px + 24px = 300px | due to the border change the acutal footprint is a little different from what is coded.
+
+Expected: border-box
+
+    Content width is set to 240px but because the content is fixed inside the declared padding and border values the set 16px (32px for both sides) for padding and the set 2px (4px for both sides) for the border get subtracted causing a value of 204px | the acutal is a little off due to the afore mentioned border problem coming in at a 204.8px
+
+    Border-box width:
+     The widith is set to 240px | width is 240px
+
+    Total horizontal footprint:
+     The border-box width gets added to the left and right margin of 12px for a total of 24px being added the border-box: 240px +  24px = 264px | the readings match the 240px + 24px
 
 
 # comp1b-m02-activity

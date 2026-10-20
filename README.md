@@ -31,6 +31,13 @@ Expected: border-box
 Differnece between inline, inline-block, and block: My noticed changes where how inline seems to be more of a felx to the contents of the line where as any of the "block" displays make the border stick to the invisible border of the text.
 
 
+Card width changing the view ports - 
+at 375px, it is supposed to be 310px but due to border issuses its coming in at a 309.6px
+at 1024px it is 590.4px and I'm lead to belive it's supposed to be 590.8px
+
+
+
+
 # comp1b-m02-activity
 
 ## This starter is for one task only

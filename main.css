@@ -41,6 +41,36 @@ p {
 
 }
 
+* { 
+    
+    box-sizing: border-box;
+
+}
+
+.page-wrapper {
+    
+    max-width: 70rem;
+    
+    margin-inline: auto;
+    
+    padding: 1rem; 
+
+}
+
+.article-card {
+    
+    width: 100%;
+    
+    max-width: 38rem;
+    
+    padding: 1rem;
+
+    border: 2px solid #17324d;
+    
+    margin: 0 0 1rem;
+
+}
+
 a:focus-visible { 
     
     outline: 3px solid #9c3a00;

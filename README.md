@@ -28,6 +28,8 @@ Expected: border-box
     Total horizontal footprint:
      The border-box width gets added to the left and right margin of 12px for a total of 24px being added the border-box: 240px +  24px = 264px | the readings match the 240px + 24px
 
+Differnece between inline, inline-block, and block: My noticed changes where how inline seems to be more of a felx to the contents of the line where as any of the "block" displays make the border stick to the invisible border of the text.
+
 
 # comp1b-m02-activity
 

@@ -15,6 +15,18 @@ p {
 
 }
 
+.badge {
+    
+    width: 6rem;
+    
+    padding: .25rem;
+    
+    border: 1px solid;
+
+    display: inline-block;
+
+}
+
 .article-card {
 
   box-sizing: border-box;

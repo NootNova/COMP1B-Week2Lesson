@@ -1,6 +1,24 @@
 Author: Nova Wolta
 Purpose: Work for the COMP1B Course, learning CSS box models.
 
+
+Records: Checking if CSS file is linked, adding color to p element
+
+Added color and it worked as desired.
+
+Added class for article card.
+
+Expected: 
+
+    Content width is set at 240px
+
+    Border-box width:
+     Width is set at 240px but content is placed outside of this width causing the padding and border to get added to this "content width", the padding is 16px and including the two padding edges this becomes 32px; the border is 2px and taking the two border edges this becomes 4px. adding both totals after the two values for the border and padding to get: 240px + 32px + 4px = 276px
+
+    Total horizontal footprint:
+     add the 12px margin twice to the Border-box width to find the total horizontal footprint, 276px + 24px = 300px
+
+
 # comp1b-m02-activity
 
 ## This starter is for one task only

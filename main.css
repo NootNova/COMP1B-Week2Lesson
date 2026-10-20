@@ -9,6 +9,26 @@ body {
 
 }
 
+p {
+
+    color:aqua;
+
+}
+
+.article-card {
+
+  box-sizing: content-box;
+
+  width: 240px;
+
+  padding: 16px;
+
+  border: 2px solid #17324d;
+
+  margin: 12px;
+
+}
+
 a:focus-visible { 
     
     outline: 3px solid #9c3a00;

@@ -10,13 +10,13 @@ Added class for article card.
 
 Expected: 
 
-    Content width is set at 240px
+    Content width is set at 240px | content width is 240px
 
     Border-box width:
-     Width is set at 240px but content is placed outside of this width causing the padding and border to get added to this "content width", the padding is 16px and including the two padding edges this becomes 32px; the border is 2px and taking the two border edges this becomes 4px. adding both totals after the two values for the border and padding to get: 240px + 32px + 4px = 276px
+     Width is set at 240px but content is placed outside of this width causing the padding and border to get added to this "content width", the padding is 16px and including the two padding edges this becomes 32px; the border is 2px and taking the two border edges this becomes 4px. adding both totals after the two values for the border and padding to get: 240px + 32px + 4px = 276px | padding is 16px but border is showing different, 1.6px [seems to be a browser issuse]
 
     Total horizontal footprint:
-     add the 12px margin twice to the Border-box width to find the total horizontal footprint, 276px + 24px = 300px
+     add the 12px margin twice to the Border-box width to find the total horizontal footprint, 276px + 24px = 300px | due to the border change the acutal footprint is a little different from what is coded.
 
 
 # comp1b-m02-activity
